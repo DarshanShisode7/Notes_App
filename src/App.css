@@ -1,0 +1,27 @@
+.App-header {
+  height: 100vh;
+  width: 100vw;
+
+  color: white;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7ecdc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f7ecdc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
